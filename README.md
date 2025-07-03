@@ -1,12 +1,38 @@
-# React + Vite
+# Screenshot Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Generate website screenshots using the APIFLASH API with a simple and customizable interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Input any URL (without https://)
+- Customize format, width, and height
+- Remove ads and cookie banners
+- View the latest screenshot
+- Gallery of previously taken screenshots
+- Supports dark and light mode
 
-## Expanding the ESLint configuration
+## Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- APIFLASH API
+- CSS
+
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/EmergencyCab/Screenshot.git
+cd Screenshot
+
+**2. Install Dependencies**
+npm install
+
+**3. Add API Key**
+Create a .env file in the root directory and add:
+VITE_APP_ACCESS_KEY="your_apiflash_key_here"
+You can get a free key from https://apiflash.com
+
+**4. Start the App**
+
+npm run dev
